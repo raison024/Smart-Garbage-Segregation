@@ -68,8 +68,11 @@ Intel OneAPI is a comprehensive development platform for building high-performan
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
+* [![python][python]][python-url]
 * [![jupyter][jupyter]][jupyter-url]
-* [![React][React.js]][React-url]
+* [![oneapi][oneapi]][oneapi-url]
+  * [![onedal][onedal]][onedal-url]
+  * [![onednn][onednn]][onednn-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,8 +124,14 @@ To get a local copy up and running follow these simple example steps.
 
 [product-screenshot]: images/screenshot.png
 
-[jupyter]: https://img.shields.io/badge/jupyter-da5b0b?&logoColor=white
+[python]: https://img.shields.io/badge/Python-da5b0b?&logoColor=white
+[python-url]: https://www.python.org/
+[jupyter]: https://img.shields.io/badge/Jupyter-da5b0b?&logoColor=white
 [jupyter-url]: https://jupyter.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[oneapi]: https://img.shields.io/badge/InteloneAPI-20232A?&logoColor=61DAFB
+[oneapi-url]: https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/intel-oneapi-data-analytics-library-onedal.html
+[onedal]: https://img.shields.io/badge/oneDAL-20232A?&logoColor=61DAFB
+[onedal-url]: https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/intel-oneapi-data-analytics-library-onedal.html
+[onednn]: https://img.shields.io/badge/oneDNN-20232A?&logoColor=61DAFB
+[onednn-url]: https://www.intel.com/content/www/us/en/developer/tools/oneapi/onednn.html
 
