@@ -121,7 +121,7 @@ To get a local copy up and running follow these simple example steps.
 
 [product-screenshot]: images/screenshot.png
 
-[jupyter]: https://img.shields.io/badge/jupyter-da5b0b&logoColor=white
+[jupyter]: https://img.shields.io/badge/jupyter-da5b0b?&logoColor=white
 [jupyter-url]: https://jupyter.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
