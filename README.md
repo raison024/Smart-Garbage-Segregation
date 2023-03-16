@@ -80,8 +80,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- What it does -->
 ## What it does
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The garbage segregation project using AI/ML automates the process of identifying and sorting different types of waste. The system uses image recognition techniques to analyze images captured by a camera and machine learning algorithms to classify the waste into different categories. By accurately identifying and segregating waste, the system can reduce the workload on human workers, increase efficiency, and reduce environmental pollution. The project also promotes responsible waste disposal practices by making people more aware of the types of waste they generate and the proper ways to dispose of them.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
