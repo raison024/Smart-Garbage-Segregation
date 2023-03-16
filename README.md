@@ -105,13 +105,7 @@ These are the steps involved in making this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## What we learned <img src="images/learn.png" alt="png" width="30">
-✅Building application using intel oneDAL:The Intel oneAPI Data Analytics
-Library (oneDAL) contributes to the acceleration of big data analysis by
-providing highly optimised algorithmic building blocks for all phases of data
-analytics (preprocessing, transformation, analysis, modelling, validation, and
-decision making) in batch, online, and distributed processing modes of
-computation .The library optimizes data ingestion along with algorithmic
-computation to increase throughput and scalability.
+✅Building a Garbage Classification for Recycling project using OneDNN provided the opportunity to leverage highly optimized building blocks for implementing deep neural networks. OneDNN's library includes optimized algorithms for common neural network layers, such as convolution, pooling, and normalization, enabling fast and efficient execution of the model. In addition, OneDNN offers support for a variety of programming languages, including C++, Python, and Java. Leveraging OneDNN's optimization capabilities, it was possible to accelerate the training and inference of the deep learning models for garbage classification, and improve the overall throughput and scalability of the system.
 
 ✅ Waste management: I gained knowledge of waste management. It is the
 process of collecting, treating, disposing, and recycling waste materials. It is
