@@ -125,9 +125,9 @@ To get a local copy up and running follow these simple example steps.
 
 [python]: https://img.shields.io/badge/Python-da5b0b?&logoColor=white
 [python-url]: https://www.python.org/
-[jupyter]: https://img.shields.io/badge/Jupyter-da5b0b?&logoColor=white
+[jupyter]: https://img.shields.io/badge/Jupyter%20Notebook-da5b0b?&logoColor=white
 [jupyter-url]: https://jupyter.org/
-[oneapi]: https://img.shields.io/badge/InteloneAPI-20232A?&logoColor=61DAFB
+[oneapi]: https://img.shields.io/badge/Intel%20oneAPI-20232A?&logoColor=61DAFB
 [oneapi-url]: https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/intel-oneapi-data-analytics-library-onedal.html
 [onedal]: https://img.shields.io/badge/oneDAL-20232A?&logoColor=61DAFB
 [onedal-url]: https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/intel-oneapi-data-analytics-library-onedal.html
