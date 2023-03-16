@@ -104,8 +104,7 @@ These are the steps involved in making this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## What we learned
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Through this project we learned to build a machine learning application using oneAPI 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +122,7 @@ To get a local copy up and running follow these simple example steps.
 
 [product-screenshot]: images/screenshot.png
 
-[python]: https://img.shields.io/badge/Python-da5b0b?&logoColor=white
+[python]: https://img.shields.io/badge/Python-3470a3?&logoColor=white
 [python-url]: https://www.python.org/
 [jupyter]: https://img.shields.io/badge/Jupyter%20Notebook-da5b0b?&logoColor=white
 [jupyter-url]: https://jupyter.org/
