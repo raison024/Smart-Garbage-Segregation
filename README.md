@@ -128,19 +128,20 @@ system, I gained a deeper understanding of the different types of machine
 learning algorithms, including supervised, unsupervised, and reinforcement
 learning. I have also learned how to use deep learning models such as
 convolutional neural networks (CNNs) for image classification.
+
 ✅Model Evaluation: Evaluating the performance of your machine learning
 models is a critical step in building an effective Garbage Classification for
 Recycling system. I have learned how to use metrics such as accuracy,
 precision, and recall to assess the performance of your models and identify
 areas for improvement.
+
 ✅Data Analysis: In addition to collecting and analyzing data, I gained
 experience in data cleaning, data wrangling, and data visualization. These skills
 are essential for preparing data for machine learning models and communicating
 insights to stakeholders.
-✅Environmental Sustainability: By working on a project that promotes waste
-reduction and recycling, you likely gained a deeper understanding of the
 
-importance of environmental sustainability. This knowledge has motivated me
+✅Environmental Sustainability: By working on a project that promotes waste
+reduction and recycling, you likely gained a deeper understanding of the importance of environmental sustainability. This knowledge has motivated me
 to explore other ways to reduce waste and promote sustainable practices in your
 community.
 
