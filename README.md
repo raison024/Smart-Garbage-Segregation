@@ -53,7 +53,7 @@
 ## About The Project
 Smart Garbage Segregation is a project that aims to using AI/ML to efficiently and effectively sort waste into different categories such as plastic, glass, etc.
 <div align="center">
-  <img src="images/Home-img.png" alt="png" width="400" height="400">
+  <img src="images/SmartGarbage.gif" type="gif" alt="png" width="400" height="400">
 </div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
