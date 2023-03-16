@@ -70,8 +70,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![python][python]][python-url]
 * [![jupyter][jupyter]][jupyter-url]
+* [![tensorflow][tensorflow]][tensorflow-url]
+* [![streamlit][streamlit]][streamlit-url]
 * [![oneapi][oneapi]][oneapi-url]
-  * [![onedal][onedal]][onedal-url]
   * [![onednn][onednn]][onednn-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -126,10 +127,12 @@ Through this project we learned to build a machine learning application using on
 [python-url]: https://www.python.org/
 [jupyter]: https://img.shields.io/badge/Jupyter%20Notebook-da5b0b?&logoColor=white
 [jupyter-url]: https://jupyter.org/
+[tensorflow]: https://img.shields.io/badge/TensorFlow-f0b93a?&logoColor=white
+[tensorflow-url]: https://www.tensorflow.org/
+[streamlit]: https://img.shields.io/badge/Streamlit-f24747?&logoColor=white
+[streamlit-url]: https://streamlit.io/
 [oneapi]: https://img.shields.io/badge/Intel%20oneAPI-20232A?&logoColor=61DAFB
 [oneapi-url]: https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/intel-oneapi-data-analytics-library-onedal.html
-[onedal]: https://img.shields.io/badge/oneDAL-20232A?&logoColor=61DAFB
-[onedal-url]: https://www.intel.com/content/www/us/en/docs/oneapi/programming-guide/2023-0/intel-oneapi-data-analytics-library-onedal.html
 [onednn]: https://img.shields.io/badge/oneDNN-20232A?&logoColor=61DAFB
 [onednn-url]: https://www.intel.com/content/www/us/en/developer/tools/oneapi/onednn.html
 
