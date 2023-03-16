@@ -68,12 +68,12 @@ Intel OneAPI is a comprehensive development platform for building high-performan
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
+* [![oneapi][oneapi]][oneapi-url]
+  * [![onednn][onednn]][onednn-url]
 * [![python][python]][python-url]
 * [![jupyter][jupyter]][jupyter-url]
 * [![tensorflow][tensorflow]][tensorflow-url]
 * [![streamlit][streamlit]][streamlit-url]
-* [![oneapi][oneapi]][oneapi-url]
-  * [![onednn][onednn]][onednn-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +105,54 @@ These are the steps involved in making this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## What we learned <img src="images/learn.png" alt="png" width="30">
-Through this project we learned to build a machine learning application using oneAPI 
+✅Building application using intel oneDAL:The Intel oneAPI Data Analytics
+Library (oneDAL) contributes to the acceleration of big data analysis by
+providing highly optimised algorithmic building blocks for all phases of data
+analytics (preprocessing, transformation, analysis, modelling, validation, and
+decision making) in batch, online, and distributed processing modes of
+computation .The library optimizes data ingestion along with algorithmic
+computation to increase throughput and scalability.
+
+✅ Waste management: I gained knowledge of waste management. It is the
+process of collecting, treating, disposing, and recycling waste materials. It is
+essential for maintaining a clean and healthy environment as well as preventing
+the negative impacts of waste on human health and the environment.
+
+✅Image Processing: Building a Garbage Classification for Recycling using
+machine learning techniques involves processing large amounts of image data.
+During the project, I have learned how to preprocess the images and extract
+relevant features to improve the accuracy of your classification models.
+
+✅Machine Learning: While building your Garbage Classification for Recycling
+system, I gained a deeper understanding of the different types of machine
+learning algorithms, including supervised, unsupervised, and reinforcement
+learning. I have also learned how to use deep learning models such as
+convolutional neural networks (CNNs) for image classification.
+✅Model Evaluation: Evaluating the performance of your machine learning
+models is a critical step in building an effective Garbage Classification for
+Recycling system. I have learned how to use metrics such as accuracy,
+precision, and recall to assess the performance of your models and identify
+areas for improvement.
+✅Data Analysis: In addition to collecting and analyzing data, I gained
+experience in data cleaning, data wrangling, and data visualization. These skills
+are essential for preparing data for machine learning models and communicating
+insights to stakeholders.
+✅Environmental Sustainability: By working on a project that promotes waste
+reduction and recycling, you likely gained a deeper understanding of the
+
+importance of environmental sustainability. This knowledge has motivated me
+to explore other ways to reduce waste and promote sustainable practices in your
+community.
+
+✅Collaboration: Building a project like this likely required collaboration with a
+team of experts in various fields, such as waste management, machine learning,
+and data analysis, and I learned the importance of working together to achieve
+common goals.
+
+Overall, the skills and knowledge I have gained while building Garbage
+Classification for Recycling system are highly valuable and applicable to a wide
+range of fields beyond waste management and recycling. Building Garbage
+Classification for Recycling was a challenging and rewarding experience . 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
