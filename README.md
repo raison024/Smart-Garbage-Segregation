@@ -94,11 +94,21 @@ To get a local copy up and running follow these simple example steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## How we built it
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-* hey
-* heyyy
-* heyy
+These are the steps involved in making this project: 
+*Importing Libraries
+*Data Importing
+*Data Exploration
+*Data Configuration
+*Preparing the Data
+**Creating a Generator for Training Set
+**Creating a Generator for Testing Set
+*Writing the labels into a text file 'Labels.txt
+*Model Creation
+*Model Compilation
+*Training the Model (batch_size = 32, epochs = 10)
+*Testing Predictions
+*Saving model as 'model.h5'
+*Deploying the Model as a Web Application using Streamlit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
