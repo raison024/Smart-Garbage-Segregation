@@ -38,8 +38,13 @@
       <ul>
         <li><a href="#inspiration">Inspiration</a></li>
         <li><a href=#social-impact>Social Impact</a></li>
-        <li><a href="#intel-oneapi">Intel OneAPI</a></li>
         <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#intel-oneapi">Intel OneAPI</a>
+      <ul>
+        <li><a href="#use-of-onednn-in-our-project">Use of oneDNN and TensorFlow in our project</a></li>
       </ul>
     </li>
     <li><a href="#what-it-does">What it does</a></li>
@@ -52,6 +57,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<div align="center">
+  <img src="images/SmartGarbage.gif" type="gif" alt="png" width="750">
+</div>
 Image classification for recycling refers to the use of machine
 learning algorithms to automatically classify images of waste
 materials, such as plastic, paper, and metal, into their respective
@@ -62,9 +70,7 @@ for recycling is to improve the efficiency and accuracy of recycling
 processes by automating the sorting of materials, reducing human
 error, and increasing the amount of recyclable materials that can be
 recovered.
-<div align="center">
-  <img src="images/SmartGarbage.gif" type="gif" alt="png" width="600">
-</div>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -103,9 +109,6 @@ Overall, image classification for recycling has the potential to create
 significant social impact by promoting environmental sustainability,
 job creation, education and awareness, and equity and access.
 
-### Intel oneAPI <img src="images/oneapi2.png" alt="png" width="30">
-Intel OneAPI is a comprehensive development platform for building high-performance, cross-architecture applications. It provides a unified programming model, tools, and libraries that allow developers to optimize their applications for Intel CPUs, GPUs, FPGAs, and other hardware. Intel OneAPI includes support for popular programming languages like C++, Python, and Fortran, as well as frameworks for deep learning, high-performance computing, and data analytics. With Intel OneAPI, developers can build applications that can run on a variety of hardware platforms, from edge devices to data centers, and take advantage of the performance benefits of Intel architectures.
-
 ### Built With <img src="images/built.png" alt="png" width="30">
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -119,7 +122,19 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Intel one api -->
+## Intel oneAPI <img src="images/oneapi2.png" alt="png" width="30">
+Intel OneAPI is a comprehensive development platform for building high-performance, cross-architecture applications. It provides a unified programming model, tools, and libraries that allow developers to optimize their applications for Intel CPUs, GPUs, FPGAs, and other hardware. Intel OneAPI includes support for popular programming languages like C++, Python, and Fortran, as well as frameworks for deep learning, high-performance computing, and data analytics. With Intel OneAPI, developers can build applications that can run on a variety of hardware platforms, from edge devices to data centers, and take advantage of the performance benefits of Intel architectures.
 
+### Use of oneDNN and TensorFlow in our project
+<img src="images/onednn.png" alt="png" width="700">
+OneDNN provides highly optimized routines for various deep learning operations, including convolution, pooling, normalization, and activation functions. By using oneDNN, you can expect faster execution times and better performance on modern CPUs, especially those with Intel processors.
+
+In this project <code>os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'</code> line sets an environment variable called <code>TF_ENABLE_ONEDNN_OPTS to '1'</code>. This enables the use of Intel's OneAPI Deep Neural Network Library (OneDNN) optimizations for TensorFlow on the system where this code is being run. OneDNN is a high-performance library for deep learning that is designed to optimize the performance of deep neural network computations on a variety of hardware platforms. By enabling OneDNN optimizations, this code may run faster on certain hardware architectures that are compatible with OneDNN. <strong>In this project, the Conv2D and Dense layers will be automatically optimized using oneDNN, which should result in faster training and inference times on compatible hardware.</strong>
+
+The <code>tensorflow.keras</code> module is used to create a convolutional neural network (CNN) model for image classification. The model architecture consists of three convolutional blocks, each followed by a max pooling layer, and three fully connected layers with dropout for regularization.
+
+Finally, the <code>model.compile</code> method is called to configure the optimizer, loss function, and evaluation metric for the model. The optimizer used is Adam, and the loss function used is sparse categorical cross-entropy. The model is also evaluated using the accuracy metric.
 
 <!-- What it does -->
 ## What it does <img src="images/does.png" alt="png" width="30">
@@ -136,12 +151,12 @@ These are the steps involved in making this project:
 * Preparing the Data
   * Creating a Generator for Training Set
   * Creating a Generator for Testing Set
-* Writing the labels into a text file 'Labels.txt
+* Writing the labels into a text file 'Labels.txt'
 * Model Creation
 * Model Compilation
 * Training the Model (batch_size = 32, epochs = 10)
 * Testing Predictions
-* Saving model as 'model.h5'
+* Saving model as 'modelnew.h5'
 * Deploying the Model as a Web Application using Streamlit
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -206,6 +221,8 @@ Classification for Recycling was a challenging and rewarding experience .
 [issues-url]: https://github.com/raison024/Smart-Garbage-Segregation/issues
 
 [product-screenshot]: images/screenshot.png
+
+
 
 [python]: https://img.shields.io/badge/Python-3470a3?&logoColor=white
 [python-url]: https://www.python.org/
