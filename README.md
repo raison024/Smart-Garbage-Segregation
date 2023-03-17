@@ -106,9 +106,9 @@ job creation, education and awareness, and equity and access.
 ### Intel oneAPI <img src="images/oneapi2.png" alt="png" width="30">
 Intel OneAPI is a comprehensive development platform for building high-performance, cross-architecture applications. It provides a unified programming model, tools, and libraries that allow developers to optimize their applications for Intel CPUs, GPUs, FPGAs, and other hardware. Intel OneAPI includes support for popular programming languages like C++, Python, and Fortran, as well as frameworks for deep learning, high-performance computing, and data analytics. With Intel OneAPI, developers can build applications that can run on a variety of hardware platforms, from edge devices to data centers, and take advantage of the performance benefits of Intel architectures.
 
-#### How we have used oneDNN in our project
-<img src="images/onednn.png" alt="png" width="400">
-In the project os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1' line sets an environment variable called TF_ENABLE_ONEDNN_OPTS to '1'. This enables the use of Intel's OneAPI Deep Neural Network Library (OneDNN) optimizations for TensorFlow on the system where this code is being run. OneDNN is a high-performance library for deep learning that is designed to optimize the performance of deep neural network computations on a variety of hardware platforms. By enabling OneDNN optimizations, this code may run faster on certain hardware architectures that are compatible with OneDNN.
+### How we have used oneDNN in our project
+<img src="images/onednn.png" alt="png" width="700">
+In the project  <span color="red">os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'</span> line sets an environment variable called<span color="red">TF_ENABLE_ONEDNN_OPTS to '1'</span>. This enables the use of Intel's OneAPI Deep Neural Network Library (OneDNN) optimizations for TensorFlow on the system where this code is being run. OneDNN is a high-performance library for deep learning that is designed to optimize the performance of deep neural network computations on a variety of hardware platforms. By enabling OneDNN optimizations, this code may run faster on certain hardware architectures that are compatible with OneDNN.
 
 The tensorflow.keras module is used to create a convolutional neural network (CNN) model for image classification. The model architecture consists of three convolutional blocks, each followed by a max pooling layer, and three fully connected layers with dropout for regularization.
 
