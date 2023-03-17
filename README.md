@@ -58,7 +58,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="center">
-  <img src="images/SmartGarbage.gif" type="gif" alt="png" width="1000">
+  <img src="images/SmartGarbage.gif" type="gif" alt="png" width="750">
 </div>
 Image classification for recycling refers to the use of machine
 learning algorithms to automatically classify images of waste
