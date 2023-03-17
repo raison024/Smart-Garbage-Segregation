@@ -19,7 +19,9 @@
     <a href="https://github.com/raison024/Smart-Garbage-Segregation"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://drive.google.com/file/d/1FttMlM96K5njpDYt_v4MtVvyPX62REhj/view">View Demo</a>
+    <a href="https://drive.google.com/file/d/1FttMlM96K5njpDYt_v4MtVvyPX62REhj/view">View Video</a>
+    ·
+    <a href="https://raison024-smart-garbage-segregation-deploymentapp-lfq9yb.streamlit.app/">View Demo</a>
     ·
     <a href="https://github.com/raison024/Smart-Garbage-Segregation/issues">Report Bug</a>
     ·
