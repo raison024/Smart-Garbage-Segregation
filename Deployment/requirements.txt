@@ -3,4 +3,4 @@ tensorflow
 keras
 numpy
 pillow 
-urllib
+urllib3
