@@ -15,7 +15,7 @@ import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'
 
 def gen_labels():
-    train = '../Data/Train'
+    train = '.././Data./Train'
     train_generator = ImageDataGenerator(rescale = 1/255)
 
     train_generator = train_generator.flow_from_directory(train,
