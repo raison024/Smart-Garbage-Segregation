@@ -57,6 +57,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<div align="center">
+  <img src="images/SmartGarbage.gif" type="gif" alt="png" width="600">
+</div>
 Image classification for recycling refers to the use of machine
 learning algorithms to automatically classify images of waste
 materials, such as plastic, paper, and metal, into their respective
@@ -67,9 +70,7 @@ for recycling is to improve the efficiency and accuracy of recycling
 processes by automating the sorting of materials, reducing human
 error, and increasing the amount of recyclable materials that can be
 recovered.
-<div align="center">
-  <img src="images/SmartGarbage.gif" type="gif" alt="png" width="600">
-</div>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
