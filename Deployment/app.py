@@ -53,7 +53,7 @@ try:
         img = preprocess(image)
 
         model = model_arc()
-        model.load_weights("../weights/modelnew.h5")
+        model.load_weights("./weights/modelnew.h5")
 
         prediction = model.predict(img[np.newaxis, ...])
         st.info('Hey! The uploaded image has been classified as " {} product " '.format(labels[np.argmax(prediction[0], axis=-1)]))
