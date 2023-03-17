@@ -1,6 +1,5 @@
 import time
 import streamlit as st
-from streamlit.scriptrunner.script_run_context import get_script_run_ctx
 import numpy as np
 from PIL import Image
 import urllib.request
