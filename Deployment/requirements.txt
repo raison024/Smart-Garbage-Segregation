@@ -2,5 +2,5 @@ streamlit
 tensorflow
 keras
 numpy
-PIL 
+pillow 
 urllib
