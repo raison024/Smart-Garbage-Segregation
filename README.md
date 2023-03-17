@@ -108,7 +108,7 @@ Intel OneAPI is a comprehensive development platform for building high-performan
 
 ### How we have used oneDNN in our project
 <img src="images/onednn.png" alt="png" width="700">
-In the project  <span color="red">os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'</span> line sets an environment variable called<span color="red">TF_ENABLE_ONEDNN_OPTS to '1'</span>. This enables the use of Intel's OneAPI Deep Neural Network Library (OneDNN) optimizations for TensorFlow on the system where this code is being run. OneDNN is a high-performance library for deep learning that is designed to optimize the performance of deep neural network computations on a variety of hardware platforms. By enabling OneDNN optimizations, this code may run faster on certain hardware architectures that are compatible with OneDNN.
+In the project  <span color="red">os.environ['TF_ENABLE_ONEDNN_OPTS'] = '1'</span> line sets an environment variable called<code color="red">TF_ENABLE_ONEDNN_OPTS to '1'</code>. This enables the use of Intel's OneAPI Deep Neural Network Library (OneDNN) optimizations for TensorFlow on the system where this code is being run. OneDNN is a high-performance library for deep learning that is designed to optimize the performance of deep neural network computations on a variety of hardware platforms. By enabling OneDNN optimizations, this code may run faster on certain hardware architectures that are compatible with OneDNN.
 
 The tensorflow.keras module is used to create a convolutional neural network (CNN) model for image classification. The model architecture consists of three convolutional blocks, each followed by a max pooling layer, and three fully connected layers with dropout for regularization.
 
